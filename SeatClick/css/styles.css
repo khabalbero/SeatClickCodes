@@ -1,0 +1,185 @@
+html,body
+{
+    background: #e6f2ff;
+}
+
+/*Navbar*/
+.my-nav
+{
+    background: #3385ff;
+    border-radius: 0;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#brand
+{
+    color: white;
+    font-size: 30px;
+}
+#navID
+{
+    color: #e6e6e6;
+    font-size: 15px;
+    padding-right: 40px;
+}
+#navID:hover
+{
+    color: white;
+}
+
+/*FAQs*/
+#faqs
+{
+  margin: 2% 2%;
+}
+
+#column
+{
+    background: white;
+    border-radius: 8px;
+}
+
+#titleF
+{
+    color: black;
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    padding-top: 20px;
+}
+
+#num
+{
+    color: #4d94ff;
+}
+#numSentence
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 5px;
+    text-align: justify;
+}
+
+/* Contact Us Styles*/
+
+#contactLabel
+{
+    font-weight: bold;
+    text-align: center;
+}
+#column
+{
+    background: white;
+    border-radius: 8px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+#textField, #subject
+{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.userInfo 
+{
+    border-radius: 5px;
+    background-color: #eff5f5;
+    padding: 10px 15px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#submitB
+{
+    background: #4d94ff;
+    width: 100%;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 2%;
+}
+
+#submitB:hover
+{
+    opacity: 0.5;
+}
+
+/*Sign Up Form*/
+#signUpForm
+{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background: white;
+    border-radius: 8px;
+}
+#signUpL
+{
+    padding-top: 5px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 2%;
+}
+#fname,#mname,#lname,#emailA,#birthDate,#cpNum,#username,#userpass, #passcon
+{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+#genderM
+{
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+#genderF
+{
+    margin-left: 10%;
+    margin-bottom: 2%;
+}
+#termsBox
+{
+    margin-bottom: 2%;
+}
+#termsL:hover
+{
+    color: #ff3333;
+}
+#registerB
+{
+    background: #ff3333;
+    width: 100%;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 2%;
+}
+
+#registerB:hover
+{
+    opacity: .5;
+}
+
+/*Footer*/
+#footL
+{
+    background: #3385ff;
+    text-align: center;
+    color: #e6e6e6;
+    padding: 15px;
+}
